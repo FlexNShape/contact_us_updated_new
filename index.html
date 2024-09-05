@@ -120,37 +120,45 @@
 <body>
     <!-- Header -->
     <header id="header" class="bg-dark text-white py-2">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="#">
-                <img src="flexNshape-icon bg removed.png" alt="icon" class="img-fluid" style="height: 50px;" />
-            </a>
-            <nav>
-                <!--
-              <ul class="side-bar">
-                <li onclick=hidesidebar()> <img src="close_img.png" alt="image"></li>
-                <li><a href="https://flexnshape.github.io/flexNshpe.com/">Home</a></li>
-                <li><a href="https://flexnshape.github.io/flexNshpe.com/">About us</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#fitness-exercises">Fitness</a></li>
-                <a id="user-name" href="#">User name</a>
-                <div id="signup"><a href="https://flexnshape.github.io/FlexNshape_signUp/">Sign up</a></div>
-                <div class="login"><a href="#">Login</a></div>
-              </ul>
-                -->
-                <ul class="list-unstyled d-flex mb-0">
-                    <li class="nav-item"><a class="nav-link text-white" href="https://flexnshape.github.io/flexNshpe.com/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="https://flexnshape.github.io/flexNshpe.com/">About us</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#Sports">Sports</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#fitness-exercises">Fitness</a></li>
-                </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="flexNshape-icon bg removed.png" alt="icon" class="img-fluid" style="height: 50px;" />
+                </a>
+                <!-- Toggler/collapsing button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="https://flexnshape.github.io/flexNshpe.com/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="https://flexnshape.github.io/flexNshpe.com/">About
+                                us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#Sports">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#fitness-exercises">Fitness</a>
+                        </li>
+                    </ul>
+                    <div class="ml-lg-3">
+                        <a href="https://flexnshape.github.io/FlexNshape_signUp/" class="btn btn-success">Sign up</a>
+                        <a href="#" class="btn btn-primary ml-2">Login</a>
+                        <a href="https://flexnshape.github.io/contact_us_updated_new/"
+                            class="btn btn-light ml-2">Contact us</a>
+                    </div>
+                </div>
             </nav>
-            <div>
-                <a href="https://flexnshape.github.io/FlexNshape_signUp/" class="btn btn-success">Sign up</a>
-                <a href="#" class="btn btn-primary ml-2">Login</a>
-                <a href="https://flexnshape.github.io/contact_us_updated_new/" class="btn btn-light ml-2">Contact us</a>
-            </div>
         </div>
     </header>
+
 
     <!-- Contact Us Page -->
     <div class="container my-5">
@@ -205,7 +213,8 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h5 class="text-white">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://flexnshape.github.io/Blog_page_FlexNshape/" class="text-white">Blogs</a></li>
+                        <li><a href="https://flexnshape.github.io/Blog_page_FlexNshape/" class="text-white">Blogs</a>
+                        </li>
                         <li><a href="#" class="text-white">Security</a></li>
                         <li><a href="#" class="text-white">Careers</a></li>
                     </ul>
@@ -215,18 +224,24 @@
                     <h5 class="text-white">Legal</h5>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-white">Contact us</a></li>
-                        <li><a href="https://flexnshape.github.io/T-C_Updated/" class="text-white">Privacy Policy</a></li>
-                        <li><a href="https://flexnshape.github.io/T-C_Updated/" class="text-white">Terms & Conditions</a></li>
+                        <li><a href="https://flexnshape.github.io/T-C_Updated/" class="text-white">Privacy Policy</a>
+                        </li>
+                        <li><a href="https://flexnshape.github.io/T-C_Updated/" class="text-white">Terms &
+                                Conditions</a></li>
                     </ul>
                 </div>
                 <!-- Column 4 -->
                 <div class="col-12 col-md-4 text-center">
                     <img src="teamimg.jpeg" alt="image" class="img-fluid rounded-circle" style="height: 50px;" />
                     <div class="mt-2 social-icons">
-                        <a href="https://x.com/FlexNShape9" class="text-white mx-2"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/flexnshape-7234a5327/" class="text-white mx-2"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/flexnshape9?igsh=dW5kZzNlb21kZG12" class="text-white mx-2"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="mailto:flexnshapehelp@gmail.com" class="text-white mx-2"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="https://x.com/FlexNShape9" class="text-white mx-2"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/flexnshape-7234a5327/" class="text-white mx-2"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/flexnshape9?igsh=dW5kZzNlb21kZG12" class="text-white mx-2"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:flexnshapehelp@gmail.com" class="text-white mx-2"><i
+                                class="fa-regular fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -249,15 +264,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <script>
-    function openSidebar(){
-        const sidebar = document.querySelector(".side-bar");
-        sidebar.style.display= "flex";
-    }
-    function hidesidebar(){
-        const sidebar = document.querySelector(".side-bar");
-        sidebar.style.display= "none";
-    }
-  </script>
+        function openSidebar() {
+            const sidebar = document.querySelector(".side-bar");
+            sidebar.style.display = "flex";
+        }
+        function hidesidebar() {
+            const sidebar = document.querySelector(".side-bar");
+            sidebar.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
